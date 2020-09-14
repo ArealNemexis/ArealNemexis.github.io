@@ -1,5 +1,5 @@
-#avatar-component {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#home-component {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }

@@ -1,6 +1,21 @@
+#avatardiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #usr-avatar {
-	border-radius: 50%;
-	width: 115px;
-	height: 115px;
-	margin-top: 15px;
+    border-radius: 50%;
+    width: 155px;
+    height: 155px;
+    margin-top: -40px;
+    border: 10px solid var(--main-background);
+    transform: translateY(10vh);
+}
+
+#square {
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--main-gray);
+    z-index: -1;
+    margin-bottom: 0;
 }

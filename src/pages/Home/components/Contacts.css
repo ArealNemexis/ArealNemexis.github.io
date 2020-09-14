@@ -1,0 +1,17 @@
+#contacts-component {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 5px;
+}
+
+#contacts-list {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    color: #333;
+    font-size: 25px;
+}

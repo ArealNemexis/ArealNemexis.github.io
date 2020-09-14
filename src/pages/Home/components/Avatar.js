@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Avatar.css';
-function Avatar() {
-	const [user, setUser] = useState({});
-	useEffect(() => {
-		async function getProfileData() {
-			const response = await fetch('https://api.github.com/users/ArealNemexis');
-			const data = await response.json();
-			setUser(data);
-		}
-
-		getProfileData();
-	}, []);
-	return <img src={user.avatar_url} id="usr-avatar" alt="" />;
+function Avatar(props) {
+    return (
+        <div id="avatardiv">
+            <img src={props.avatar_url} id="usr-avatar" alt="" />
+            <div id="square"></div>
+        </div>
+    );
 }
 
 export default Avatar;
