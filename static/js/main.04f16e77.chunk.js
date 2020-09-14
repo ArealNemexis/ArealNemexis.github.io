@@ -1,2 +1,0 @@
-(this["webpackJsonparealnemexis.github.io"]=this["webpackJsonparealnemexis.github.io"]||[]).push([[0],{3:function(e,t,n){e.exports=n(8)},8:function(e,t,n){"use strict";n.r(t);var a=n(0),r=n.n(a),i=n(2);var c=function(){return r.a.createElement("div",{className:"App"},r.a.createElement("h1",null,"Lucas Ferreira"))};n.n(i).a.render(r.a.createElement(r.a.StrictMode,null,r.a.createElement(c,null)),document.getElementById("root"))}},[[3,1,2]]]);
-//# sourceMappingURL=main.04f16e77.chunk.js.map
