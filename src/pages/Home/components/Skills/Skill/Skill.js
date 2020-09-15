@@ -11,7 +11,7 @@ function Skill(props) {
             if (i < Number(props.valueSkill)) {
                 array.push(
                     <li className="skill-li" key={i}>
-                        <div className="level-div fully"></div>
+                        <div className="level-div"></div>
                     </li>
                 );
             } else {

@@ -13,19 +13,23 @@
 }
 
 .skill-li {
-    height: 14px;
+    height: auto;
+    width: auto;
+    margin-bottom: 0;
 }
 .skill-ul-level {
-    height: 20px;
-    border: #232323 solid 3px;
-    width: 125px;
+    height: auto;
+    width: auto;
 }
+
 .level-div {
-    width: 24px;
-    height: 15px;
-    background-color: #2d2a24;
-    opacity: 0.5;
+    width: 18px;
+    height: 18px;
+    background-color: var(--main-background);
+    border: 2px black solid;
+    border-radius: 50%;
+    margin-left: 2px;
 }
 .empty {
-    opacity: 0;
+    background-color: var(--main-gray);
 }
