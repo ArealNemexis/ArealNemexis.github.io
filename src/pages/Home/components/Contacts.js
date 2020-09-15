@@ -15,7 +15,7 @@ function Contacts() {
                 </li>
                 <li>
                     <a
-                        href="https://api.whatsapp.com/send?phone=5561992614682"
+                        href="https://api.whatsapp.com/send?phone=5561992614682&text=olá,%20vi%20seu%20curriculo%20e%20me%20interessei,%20teria%20disponibilidade%20para%20conversar?"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
