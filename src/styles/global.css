@@ -7,8 +7,7 @@
 
 body {
     background-color: var(--main-background);
-    color: var(--main-gray);
-    font-family: sans-serif;
+    color: var(--main-black);
 }
 
 ul {

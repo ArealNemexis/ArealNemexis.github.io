@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import Avatar from './components/Avatar';
-import BackgroundSquare from './components/BackgroundSquare';
-import Title from './components/Title';
-import Contacts from './components/Contacts';
+import Avatar from './components/Avatar/Avatar';
+import BackgroundSquare from './components/BackgroundSquare/BackgroundSquare';
+import Title from './components/Title/Title';
+import Contacts from './components/Contacts/Contacts';
+import AboutMe from './components/AboutMe/AboutMe';
+import Academic from './components/Academic/Academic';
 import './index.css';
 
 function Home() {
@@ -21,7 +23,7 @@ function Home() {
 
         getProfileData();
     }, []);
-    // name = name.split('').slice(0, 2).join('');
+
     return (
         <div id="home-component">
             <div id="avatar-component">
@@ -30,6 +32,8 @@ function Home() {
             <BackgroundSquare>
                 <Title id="username">{Name}</Title>
                 <Contacts></Contacts>
+                <AboutMe></AboutMe>
+                <Academic></Academic>
             </BackgroundSquare>
         </div>
     );

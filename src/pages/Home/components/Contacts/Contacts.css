@@ -1,8 +1,12 @@
 #contacts-component {
+    width: var(--mobile-default-component-width);
     display: flex;
     justify-content: center;
     color: white;
     margin: 5px;
+    padding: 10px 0px;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
 }
 
 #contacts-list {
@@ -11,7 +15,11 @@
     justify-content: space-between;
 }
 
+#contacts-item {
+    margin: 0;
+}
+
 .icons {
-    color: #333;
+    color: black;
     font-size: 25px;
 }

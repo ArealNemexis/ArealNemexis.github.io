@@ -1,0 +1,9 @@
+:root {
+    --main-background: #2d2a24;
+    --main-black: #0a0903;
+    --main-gray: #8f8f8f;
+    --mobile-h2: 40px;
+    --mobile-h3: 22px;
+    --mobile-default-margin-bottom: 15px;
+    --mobile-default-component-width: 95vw;
+}
