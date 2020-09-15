@@ -1,0 +1,13 @@
+#skills-div,
+#skills-list {
+    width: var(--mobile-default-component-width);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+}
+h2 {
+    font-size: var(--mobile-h2);
+    margin-bottom: var(--mobile-default-margin-bottom);
+}

@@ -1,0 +1,31 @@
+.skill-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70vw;
+}
+
+.skill-ul-level {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    height: 16px;
+}
+
+.skill-li {
+    height: 14px;
+}
+.skill-ul-level {
+    height: 20px;
+    border: #232323 solid 3px;
+    width: 125px;
+}
+.level-div {
+    width: 24px;
+    height: 15px;
+    background-color: #2d2a24;
+    opacity: 0.5;
+}
+.empty {
+    opacity: 0;
+}
