@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
+import './index.css';
 import Avatar from './components/Avatar/Avatar';
 import BackgroundSquare from './components/BackgroundSquare/BackgroundSquare';
 import Title from './components/Title/Title';
 import Contacts from './components/Contacts/Contacts';
 import AboutMe from './components/AboutMe/AboutMe';
 import Academic from './components/Academic/Academic';
-import './index.css';
 import Skills from './components/Skills/Skills';
 import Skill from './components/Skills/Skill/Skill';
 
@@ -28,11 +28,9 @@ function Home() {
 
     return (
         <div id="home-component">
-            <div id="avatar-component">
-                <Avatar id="usr-avatar" avatar_url={User.avatar_url} />
-            </div>
+            <Avatar avatar_url={User.avatar_url} />
             <BackgroundSquare>
-                <Title id="username">{Name}</Title>
+                {/* <Title id="username">{Name}</Title>
                 <Contacts></Contacts>
                 <AboutMe></AboutMe>
                 <Academic></Academic>
@@ -50,7 +48,7 @@ function Home() {
                     <Skill skillName="c e c++" valueSkill="3" />
                     <Skill skillName="kotlin" valueSkill="2" />
                     <Skill skillName="java" valueSkill="2" />
-                </Skills>
+                </Skills> */}
             </BackgroundSquare>
         </div>
     );
